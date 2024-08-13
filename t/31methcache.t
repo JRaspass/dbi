@@ -59,9 +59,8 @@ sub Foo::local2 { [ "local2" ] };
 
 
 my $fetch_hook;
-{
-    package Bar;
-    @Bar::ISA = qw(DBD::_::st);
+package Bar {
+    our @ISA = qw(DBD::_::st);
     sub fetch { &$fetch_hook };
 }
 
