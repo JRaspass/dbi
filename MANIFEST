@@ -10,6 +10,7 @@ MANIFEST
 Makefile.PL			The Makefile generator
 Perl.xs				Test harness (currently) for Driver.xst
 README.md
+cpanfile
 dbd_xsh.h			Prototypes for standard Driver.xst interface
 dbi_sql.h			Definitions based on SQL CLI / ODBC (#inc'd by DBIXS.h)
 dbipport.h			Perl portability macros (from Devel::PPort)
@@ -69,7 +70,7 @@ lib/DBI/ProfileSubs.pm
 lib/DBI/ProxyServer.pm		The proxy drivers server
 lib/DBI/PurePerl.pm		A DBI.xs emulation in Perl
 lib/DBI/SQL/Nano.pm		A 'smaller than micro' SQL parser
-lib/DBI/Util/_accessor.pm       A very¬cut-down version of Class::Accessor::Fast
+lib/DBI/Util/_accessor.pm       A veryÂ¬cut-down version of Class::Accessor::Fast
 lib/DBI/Util/CacheMemory.pm     A very cut-down version of Cache::Memory
 lib/DBI/W32ODBC.pm		An experimental DBI emulation layer for Win32::ODBC
 lib/Win32/DBIODBC.pm		An experimental Win32::ODBC emulation layer for DBI
